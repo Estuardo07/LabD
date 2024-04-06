@@ -2,7 +2,7 @@
 import pickle
 import sys
 
-TOKENS = {0: ' return WHITESPACE ', 1: ' return ID ', 2: ' return NUMBER ', 3: ' return PLUS ', 4: ' return MINUS ', 5: ' return TIMES ', 6: ' return DIV ', 7: ' return LPAREN ', 8: ' return RPAREN '}
+TOKENS = {0: '', 1: ' return ID ', 2: ' return PLUS ', 3: ' return TIMES ', 4: ' return LPAREN ', 5: ' return RPAREN '}
 
 def print_tokens():
     return TOKENS

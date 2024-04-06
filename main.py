@@ -5,7 +5,7 @@ import pickle
 
 
 def main():
-    archivo_yalex = 'slr-2.yal'
+    archivo_yalex = 'slr-1.yal'
     rule_token, token_dic = Yalex_reader(archivo_yalex)
     with open('template.j2', 'r') as f:
         template = f.read()
